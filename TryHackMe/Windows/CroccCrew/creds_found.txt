@@ -1,0 +1,19 @@
+db-config.bak:
+
+	<?php
+
+	$servername = "db.cooctus.corp";
+	$username = "C00ctusAdm1n";
+	$password = "B4dt0th3b0n3";
+
+	// Create connection $conn = new mysqli($servername, $username, $password);
+
+	// Check connection if ($conn->connect_error) {
+	die ("Connection Failed: " .$conn->connect_error);
+	}
+
+	echo "Connected Successfully";
+
+	?>
+
+visitor:GuestLogin!

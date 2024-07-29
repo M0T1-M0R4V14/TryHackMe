@@ -1,0 +1,58 @@
+# Nmap 7.94SVN scan initiated Wed Jul 24 05:10:18 2024 as: nmap -sC -sV -O -T5 -p 53,80,135,139,389,445,464,593,636,3268,3269,3389,9389,49666-49884 -oN nmap 10.10.186.19
+Nmap scan report for 10.10.186.19
+Host is up (0.084s latency).
+Not shown: 211 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Simple DNS Plus
+80/tcp    open  http          Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: COOCTUS.CORP0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: COOCTUS.CORP0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: COOCTUS
+|   NetBIOS_Domain_Name: COOCTUS
+|   NetBIOS_Computer_Name: DC
+|   DNS_Domain_Name: COOCTUS.CORP
+|   DNS_Computer_Name: DC.COOCTUS.CORP
+|   Product_Version: 10.0.17763
+|_  System_Time: 2024-07-24T09:11:23+00:00
+|_ssl-date: 2024-07-24T09:12:02+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=DC.COOCTUS.CORP
+| Not valid before: 2024-07-23T08:44:12
+|_Not valid after:  2025-01-22T08:44:12
+9389/tcp  open  mc-nmf        .NET Message Framing
+49666/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  msrpc         Microsoft Windows RPC
+49673/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49674/tcp open  msrpc         Microsoft Windows RPC
+49678/tcp open  msrpc         Microsoft Windows RPC
+49710/tcp open  msrpc         Microsoft Windows RPC
+49884/tcp open  msrpc         Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (88%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: Host: DC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2024-07-24T09:11:25
+|_  start_date: N/A
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 24 05:12:05 2024 -- 1 IP address (1 host up) scanned in 106.69 seconds

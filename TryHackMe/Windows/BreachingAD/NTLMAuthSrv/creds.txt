@@ -1,0 +1,4 @@
+[+] Valid credential pair found! Username: hollie.powell Password: Changeme123
+[+] Valid credential pair found! Username: heather.smith Password: Changeme123
+[+] Valid credential pair found! Username: gordon.stevens Password: Changeme123
+[+] Valid credential pair found! Username: georgina.edwards Password: Changeme123

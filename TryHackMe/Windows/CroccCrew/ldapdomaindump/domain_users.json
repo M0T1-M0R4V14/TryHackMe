@@ -1,0 +1,2333 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPasswordTime": [
+            "2024-07-24 10:55:29.066612+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "reset"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "reset"
+        ],
+        "distinguishedName": [
+            "CN=reset,OU=Service-Accounts,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "reset"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-07-24 11:03:21.957722+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-07-24 10:15:37.082689+00:00"
+        ],
+        "logonCount": [
+            8
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-AllowedToDelegateTo": [
+            "oakley/DC.COOCTUS.CORP/COOCTUS.CORP",
+            "oakley/DC.COOCTUS.CORP",
+            "oakley/DC",
+            "oakley/DC.COOCTUS.CORP/COOCTUS",
+            "oakley/DC/COOCTUS"
+        ],
+        "name": [
+            "reset"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{8cf33c91-c972-4329-aff5-6f03306979e7}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1134"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 22:00:39.356665+00:00"
+        ],
+        "sAMAccountName": [
+            "password-reset"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "HTTP/dc.cooctus.corp"
+        ],
+        "uSNChanged": [
+            98355
+        ],
+        "uSNCreated": [
+            57389
+        ],
+        "userAccountControl": [
+            16843264
+        ],
+        "userPrincipalName": [
+            "password-reset@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2024-07-24 10:15:37+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:32:40+00:00"
+        ]
+    },
+    "dn": "CN=reset,OU=Service-Accounts,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "David"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "David"
+        ],
+        "distinguishedName": [
+            "CN=David,OU=Contractors,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "David"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "David"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{9ac0c69e-b01e-4f67-938e-a27f35cb6192}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1132"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:20:50.371178+00:00"
+        ],
+        "sAMAccountName": [
+            "David"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53371
+        ],
+        "uSNCreated": [
+            53365
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "David@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:20:50+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:20:50+00:00"
+        ]
+    },
+    "dn": "CN=David,OU=Contractors,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Ben"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "Ben"
+        ],
+        "distinguishedName": [
+            "CN=Ben,OU=Helpdesk,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "Ben"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=MSSQL Admins,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=File Server Admins,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=East Coast,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=VPN Access,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Ben"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{0c274bf9-c846-4b04-b2c4-6f8b90f13fd5}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1131"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:20:36.044931+00:00"
+        ],
+        "sAMAccountName": [
+            "Ben"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53363
+        ],
+        "uSNCreated": [
+            53357
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Ben@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:20:36+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:20:36+00:00"
+        ]
+    },
+    "dn": "CN=Ben,OU=Helpdesk,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "evan"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "evan"
+        ],
+        "distinguishedName": [
+            "CN=evan,OU=HR,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "evan"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=File Server Access,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=East Coast,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=VPN Access,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "evan"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{b48959f9-1a98-4395-b4a3-532664622f28}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1130"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:20:19.905840+00:00"
+        ],
+        "sAMAccountName": [
+            "evan"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53355
+        ],
+        "uSNCreated": [
+            53349
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "evan@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:20:19+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:20:19+00:00"
+        ]
+    },
+    "dn": "CN=evan,OU=HR,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "varg"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "varg"
+        ],
+        "distinguishedName": [
+            "CN=varg,OU=Marketing,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "varg"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=File Server Access,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=West Coast,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "varg"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{814df651-8303-4e48-b423-0449fe78b499}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1129"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:19:30.517693+00:00"
+        ],
+        "sAMAccountName": [
+            "Varg"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53347
+        ],
+        "uSNCreated": [
+            53341
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Varg@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:19:30+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:19:30+00:00"
+        ]
+    },
+    "dn": "CN=varg,OU=Marketing,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "jon"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "jon"
+        ],
+        "distinguishedName": [
+            "CN=jon,OU=R&D,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "jon"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=MSSQL Access,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=File Server Access,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=East Coast,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=VPN Access,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "jon"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{08e46e76-323d-48fe-8a4e-ec81dba6d40d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1128"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:19:12.191055+00:00"
+        ],
+        "sAMAccountName": [
+            "jon"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53339
+        ],
+        "uSNCreated": [
+            53333
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "jon@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:19:12+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:19:12+00:00"
+        ]
+    },
+    "dn": "CN=jon,OU=R&D,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "kevin"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "kevin"
+        ],
+        "distinguishedName": [
+            "CN=kevin,OU=Sales,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "kevin"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=File Server Access,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=West Coast,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=VPN Access,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "kevin"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{9fe982c2-2139-4c71-9767-6c651429dafb}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1127"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:18:35.377110+00:00"
+        ],
+        "sAMAccountName": [
+            "kevin"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53331
+        ],
+        "uSNCreated": [
+            53325
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "kevin@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:18:35+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:18:35+00:00"
+        ]
+    },
+    "dn": "CN=kevin,OU=Sales,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "paradox"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "paradox"
+        ],
+        "distinguishedName": [
+            "CN=paradox,OU=Sales,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "paradox"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=West Coast,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=VPN Access,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "paradox"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{b350df50-42c9-4115-ba96-9deba8219a16}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1126"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:18:21.446211+00:00"
+        ],
+        "sAMAccountName": [
+            "pars"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53323
+        ],
+        "uSNCreated": [
+            53317
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "pars@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:18:21+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:18:21+00:00"
+        ]
+    },
+    "dn": "CN=paradox,OU=Sales,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "yumeko"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "yumeko"
+        ],
+        "distinguishedName": [
+            "CN=yumeko,OU=R&D,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "yumeko"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=File Server Admins,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=East Coast,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "yumeko"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{205dff0b-21f8-4944-b6bc-1cac3e7801b6}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1125"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:18:02.001358+00:00"
+        ],
+        "sAMAccountName": [
+            "yumeko"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53314
+        ],
+        "uSNCreated": [
+            53308
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "yumeko@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:18:02+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:18:01+00:00"
+        ]
+    },
+    "dn": "CN=yumeko,OU=R&D,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "cryillic"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "cryillic"
+        ],
+        "distinguishedName": [
+            "CN=cryillic,OU=Marketing,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "cryillic"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=File Server Access,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=East Coast,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=VPN Access,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "cryillic"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{4c50c725-771f-46db-a866-792f72b28d68}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1124"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:17:41.030838+00:00"
+        ],
+        "sAMAccountName": [
+            "cryillic"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53306
+        ],
+        "uSNCreated": [
+            53300
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "cryillic@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:17:41+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:17:41+00:00"
+        ]
+    },
+    "dn": "CN=cryillic,OU=Marketing,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "karen"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "karen"
+        ],
+        "distinguishedName": [
+            "CN=karen,OU=HR,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "karen"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=East Coast,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=VPN Access,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "karen"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{8efb707a-26bc-4852-a598-63a4baed0cf2}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1123"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:17:27.624601+00:00"
+        ],
+        "sAMAccountName": [
+            "karen"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            53298
+        ],
+        "uSNCreated": [
+            53292
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "karen@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:17:27+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:17:27+00:00"
+        ]
+    },
+    "dn": "CN=karen,OU=HR,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPasswordTime": [
+            "2021-06-08 20:35:37.692505+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Fawaz"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "Fawaz"
+        ],
+        "distinguishedName": [
+            "CN=Fawaz,OU=Helpdesk,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "Fawaz"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2021-06-08 20:35:44.005327+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-06-08 18:52:24.828772+00:00"
+        ],
+        "logonCount": [
+            6
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=File Server Admins,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=File Server Access,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=West Coast,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=Restrict DC Login,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=Server Users,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=VPN Access,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=PC-Joiner,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=RDP-Users,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Fawaz"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{5b05f181-10cf-41c6-8887-cc093411ab2a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1122"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 22:00:10.503454+00:00"
+        ],
+        "sAMAccountName": [
+            "Fawaz"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            77914
+        ],
+        "uSNCreated": [
+            53283
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Fawaz@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 22:00:10+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 05:17:05+00:00"
+        ]
+    },
+    "dn": "CN=Fawaz,OU=Helpdesk,OU=Staff,OU=Employees,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2021-06-08 05:23:09.036888+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "admCroccCrew"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 18:50:55+00:00",
+            "2021-06-08 06:20:14+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "admCroccCrew"
+        ],
+        "distinguishedName": [
+            "CN=admCroccCrew,OU=Enterprise-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "admCroccCrew"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2021-06-08 05:23:11.709414+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-07-24 11:17:47.313612+00:00"
+        ],
+        "logonCount": [
+            1
+        ],
+        "memberOf": [
+            "CN=Enterprise Admins,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "admCroccCrew"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c9043e7a-f13a-4040-aaf6-deb6a3c44e1a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1121"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 04:42:27.879692+00:00"
+        ],
+        "sAMAccountName": [
+            "admCroccCrew"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            98368
+        ],
+        "uSNCreated": [
+            49236
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "admCroccCrew@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2024-07-24 11:17:47+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 03:15:34+00:00"
+        ]
+    },
+    "dn": "CN=admCroccCrew,OU=Enterprise-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Howard"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 18:50:55+00:00",
+            "2021-06-08 06:20:14+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Howard"
+        ],
+        "distinguishedName": [
+            "CN=Howard,OU=Enterprise-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "Howard"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Enterprise Admins,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Howard"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{a2d44189-bd03-4724-bcfc-5bda92495b76}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1120"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 03:13:44.491535+00:00"
+        ],
+        "sAMAccountName": [
+            "Howard"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            69731
+        ],
+        "uSNCreated": [
+            49220
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Howard@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 06:20:14+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 03:13:44+00:00"
+        ]
+    },
+    "dn": "CN=Howard,OU=Enterprise-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Steve"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 18:50:55+00:00",
+            "2021-06-08 06:20:14+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Steve"
+        ],
+        "distinguishedName": [
+            "CN=Steve,OU=Enterprise-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "Steve"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Enterprise Admins,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Steve"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{e72c3308-2eb4-49b2-a8f1-424978f0a0fb}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1119"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 03:13:25.486208+00:00"
+        ],
+        "sAMAccountName": [
+            "Steve"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            69729
+        ],
+        "uSNCreated": [
+            49212
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Steve@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 06:20:14+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 03:13:25+00:00"
+        ]
+    },
+    "dn": "CN=Steve,OU=Enterprise-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2021-06-08 03:10:34.922476+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Spooks"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 18:50:55+00:00",
+            "2021-06-08 06:20:14+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Spooks"
+        ],
+        "distinguishedName": [
+            "CN=Spooks,OU=Enterprise-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "Spooks"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2021-06-08 03:12:51.161863+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-06-08 03:09:17.722305+00:00"
+        ],
+        "logonCount": [
+            1
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Enterprise Admins,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Spooks"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{aa7778f2-e256-4f94-9ec8-0f90097b1a9e}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1117"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:41:48.675550+00:00"
+        ],
+        "sAMAccountName": [
+            "Spooks"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            69732
+        ],
+        "uSNCreated": [
+            32840
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Spooks@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 06:20:14+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 02:26:02+00:00"
+        ]
+    },
+    "dn": "CN=Spooks,OU=Enterprise-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Jeff"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:17+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Jeff"
+        ],
+        "distinguishedName": [
+            "CN=Jeff,OU=Domain-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "Jeff"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Domain Admins,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Jeff"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{f6b3040e-871a-4c53-9759-ac51919587fa}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1116"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 05:41:35.859997+00:00"
+        ],
+        "sAMAccountName": [
+            "Jeff"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            57413
+        ],
+        "uSNCreated": [
+            32827
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Jeff@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 05:41:35+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 02:24:55+00:00"
+        ]
+    },
+    "dn": "CN=Jeff,OU=Domain-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Mark"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:17+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Mark"
+        ],
+        "distinguishedName": [
+            "CN=Mark,OU=Domain-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "Mark"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Domain Admins,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Mark"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{7734fda6-8d48-4ef9-8741-a3195a33f24d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1115"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "mark"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            32849
+        ],
+        "uSNCreated": [
+            32804
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "mark@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2021-06-08 02:27:40+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 02:21:50+00:00"
+        ]
+    },
+    "dn": "CN=Mark,OU=Domain-Admins,OU=Security-OU,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPasswordTime": [
+            "2021-06-08 02:54:37.770056+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Cooctus Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "Cooctus Guest"
+        ],
+        "distinguishedName": [
+            "CN=Cooctus Guest,OU=Service-Accounts,DC=COOCTUS,DC=CORP"
+        ],
+        "givenName": [
+            "Cooctus"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-07-24 12:49:40.564728+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-07-24 09:55:36.510199+00:00"
+        ],
+        "logonCount": [
+            5
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "name": [
+            "Cooctus Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{55c5f234-e3de-4f5c-9fb4-188710fa929e}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-1109"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 22:00:31.275190+00:00"
+        ],
+        "sAMAccountName": [
+            "Visitor"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Guest"
+        ],
+        "uSNChanged": [
+            98351
+        ],
+        "uSNCreated": [
+            20578
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Visitor@COOCTUS.CORP"
+        ],
+        "whenChanged": [
+            "2024-07-24 09:55:36+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 01:05:24+00:00"
+        ]
+    },
+    "dn": "CN=Cooctus Guest,OU=Service-Accounts,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{d14aa7c9-3757-4c1e-8fc5-fd3072ad92d6}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-06-08 00:35:08.593107+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            20562
+        ],
+        "uSNCreated": [
+            12324
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2021-06-08 01:01:51+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 00:35:08+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{a59d7917-60b3-42e6-ad71-f2433a210354}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8197
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2021-06-08 00:34:38+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 00:34:38+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=COOCTUS,DC=CORP"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2024-07-24 11:13:25.233250+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-06-08 19:14:53+00:00",
+            "2021-06-08 18:59:42+00:00",
+            "2021-06-08 05:35:40+00:00",
+            "2021-06-08 05:33:03+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=COOCTUS,DC=CORP"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-07-24 12:17:10.796017+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-07-24 11:02:50.892456+00:00"
+        ],
+        "logonCount": [
+            32
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=RDP-Users,CN=Builtin,DC=COOCTUS,DC=CORP",
+            "CN=Group Policy Creator Owners,CN=Users,DC=COOCTUS,DC=CORP",
+            "CN=Domain Admins,CN=Users,DC=COOCTUS,DC=CORP",
+            "CN=Enterprise Admins,CN=Users,DC=COOCTUS,DC=CORP",
+            "CN=Schema Admins,CN=Users,DC=COOCTUS,DC=CORP",
+            "CN=Administrators,CN=Builtin,DC=COOCTUS,DC=CORP"
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=COOCTUS,DC=CORP"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{923161fa-065e-4170-9ab7-1607ba6c16a8}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2062199590-3607821280-2073525473-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2024-07-24 11:36:13.238089+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            98372
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2024-07-24 11:36:13+00:00"
+        ],
+        "whenCreated": [
+            "2021-06-08 00:34:38+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=COOCTUS,DC=CORP"
+}]
