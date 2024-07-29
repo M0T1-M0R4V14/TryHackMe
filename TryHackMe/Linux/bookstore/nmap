@@ -1,0 +1,22 @@
+# Nmap 7.94SVN scan initiated Mon Apr 15 14:03:24 2024 as: nmap -sV -sC -oN nmap -p- bookstore.thm
+Nmap scan report for bookstore.thm (10.10.7.218)
+Host is up (0.071s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 44:0e:60:ab:1e:86:5b:44:28:51:db:3f:9b:12:21:77 (RSA)
+|   256 59:2f:70:76:9f:65:ab:dc:0c:7d:c1:a2:a3:4d:e6:40 (ECDSA)
+|_  256 10:9f:0b:dd:d6:4d:c7:7a:3d:ff:52:42:1d:29:6e:ba (ED25519)
+80/tcp   open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Book Store
+5000/tcp open  http    Werkzeug httpd 0.14.1 (Python 3.6.9)
+|_http-title: Home
+|_http-server-header: Werkzeug/0.14.1 Python/3.6.9
+| http-robots.txt: 1 disallowed entry 
+|_/api </p> 
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr 15 14:04:58 2024 -- 1 IP address (1 host up) scanned in 94.55 seconds

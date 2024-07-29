@@ -1,0 +1,20 @@
+# Nmap 7.92 scan initiated Mon Apr  8 06:02:26 2024 as: nmap -sV -sC -oN nmap -p- wekor.thm
+Nmap scan report for wekor.thm (10.10.65.50)
+Host is up (0.072s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 95:c3:ce:af:07:fa:e2:8e:29:04:e4:cd:14:6a:21:b5 (RSA)
+|   256 4d:99:b5:68:af:bb:4e:66:ce:72:70:e6:e3:f8:96:a4 (ECDSA)
+|_  256 0d:e5:7d:e8:1a:12:c0:dd:b7:66:5e:98:34:55:59:f6 (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+| http-robots.txt: 9 disallowed entries 
+| /workshop/ /root/ /lol/ /agent/ /feed /crawler /boot 
+|_/comingreallysoon /interesting
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr  8 06:09:01 2024 -- 1 IP address (1 host up) scanned in 394.79 seconds

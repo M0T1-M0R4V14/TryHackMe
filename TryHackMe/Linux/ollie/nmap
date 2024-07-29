@@ -1,0 +1,85 @@
+# Nmap 7.94SVN scan initiated Sat May 25 16:38:55 2024 as: nmap -sC -sV -oN nmap -p- ollie.thm
+Nmap scan report for ollie.thm (10.10.67.244)
+Host is up (0.60s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 b7:1b:a8:f8:8c:8a:4a:53:55:c0:2e:89:01:f2:56:69 (RSA)
+|   256 4e:27:43:b6:f4:54:f9:18:d0:38:da:cd:76:9b:85:48 (ECDSA)
+|_  256 14:82:ca:bb:04:e5:01:83:9c:d6:54:e9:d1:fa:c4:82 (ED25519)
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+| http-title: Ollie :: login
+|_Requested resource was http://ollie.thm/index.php?page=login
+| http-robots.txt: 2 disallowed entries 
+|_/ /immaolllieeboyyy
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+1337/tcp open  waste?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, GenericLines: 
+|     Hey stranger, I'm Ollie, protector of panels, lover of deer antlers.
+|     What is your name? What's up, 
+|     It's been a while. What are you here for?
+|   DNSVersionBindReqTCP: 
+|     Hey stranger, I'm Ollie, protector of panels, lover of deer antlers.
+|     What is your name? What's up, 
+|     version
+|     bind
+|     It's been a while. What are you here for?
+|   GetRequest: 
+|     Hey stranger, I'm Ollie, protector of panels, lover of deer antlers.
+|     What is your name? What's up, Get / http/1.0
+|     It's been a while. What are you here for?
+|   HTTPOptions: 
+|     Hey stranger, I'm Ollie, protector of panels, lover of deer antlers.
+|     What is your name? What's up, Options / http/1.0
+|     It's been a while. What are you here for?
+|   Help: 
+|     Hey stranger, I'm Ollie, protector of panels, lover of deer antlers.
+|     What is your name? What's up, Help
+|     It's been a while. What are you here for?
+|   NULL, RPCCheck: 
+|     Hey stranger, I'm Ollie, protector of panels, lover of deer antlers.
+|     What is your name?
+|   RTSPRequest: 
+|     Hey stranger, I'm Ollie, protector of panels, lover of deer antlers.
+|     What is your name? What's up, Options / rtsp/1.0
+|_    It's been a while. What are you here for?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1337-TCP:V=7.94SVN%I=7%D=5/25%Time=6651EFC6%P=x86_64-pc-linux-gnu%r
+SF:(NULL,59,"Hey\x20stranger,\x20I'm\x20Ollie,\x20protector\x20of\x20panel
+SF:s,\x20lover\x20of\x20deer\x20antlers\.\n\nWhat\x20is\x20your\x20name\?\
+SF:x20")%r(GenericLines,93,"Hey\x20stranger,\x20I'm\x20Ollie,\x20protector
+SF:\x20of\x20panels,\x20lover\x20of\x20deer\x20antlers\.\n\nWhat\x20is\x20
+SF:your\x20name\?\x20What's\x20up,\x20\r\n\r!\x20It's\x20been\x20a\x20whil
+SF:e\.\x20What\x20are\x20you\x20here\x20for\?\x20")%r(GetRequest,A1,"Hey\x
+SF:20stranger,\x20I'm\x20Ollie,\x20protector\x20of\x20panels,\x20lover\x20
+SF:of\x20deer\x20antlers\.\n\nWhat\x20is\x20your\x20name\?\x20What's\x20up
+SF:,\x20Get\x20/\x20http/1\.0\r\n\r!\x20It's\x20been\x20a\x20while\.\x20Wh
+SF:at\x20are\x20you\x20here\x20for\?\x20")%r(HTTPOptions,A5,"Hey\x20strang
+SF:er,\x20I'm\x20Ollie,\x20protector\x20of\x20panels,\x20lover\x20of\x20de
+SF:er\x20antlers\.\n\nWhat\x20is\x20your\x20name\?\x20What's\x20up,\x20Opt
+SF:ions\x20/\x20http/1\.0\r\n\r!\x20It's\x20been\x20a\x20while\.\x20What\x
+SF:20are\x20you\x20here\x20for\?\x20")%r(RTSPRequest,A5,"Hey\x20stranger,\
+SF:x20I'm\x20Ollie,\x20protector\x20of\x20panels,\x20lover\x20of\x20deer\x
+SF:20antlers\.\n\nWhat\x20is\x20your\x20name\?\x20What's\x20up,\x20Options
+SF:\x20/\x20rtsp/1\.0\r\n\r!\x20It's\x20been\x20a\x20while\.\x20What\x20ar
+SF:e\x20you\x20here\x20for\?\x20")%r(RPCCheck,59,"Hey\x20stranger,\x20I'm\
+SF:x20Ollie,\x20protector\x20of\x20panels,\x20lover\x20of\x20deer\x20antle
+SF:rs\.\n\nWhat\x20is\x20your\x20name\?\x20")%r(DNSVersionBindReqTCP,B0,"H
+SF:ey\x20stranger,\x20I'm\x20Ollie,\x20protector\x20of\x20panels,\x20lover
+SF:\x20of\x20deer\x20antlers\.\n\nWhat\x20is\x20your\x20name\?\x20What's\x
+SF:20up,\x20\0\x1e\0\x06\x01\0\0\x01\0\0\0\0\0\0\x07version\x04bind\0\0\x1
+SF:0\0\x03!\x20It's\x20been\x20a\x20while\.\x20What\x20are\x20you\x20here\
+SF:x20for\?\x20")%r(DNSStatusRequestTCP,9E,"Hey\x20stranger,\x20I'm\x20Oll
+SF:ie,\x20protector\x20of\x20panels,\x20lover\x20of\x20deer\x20antlers\.\n
+SF:\nWhat\x20is\x20your\x20name\?\x20What's\x20up,\x20\0\x0c\0\0\x10\0\0\0
+SF:\0\0\0\0\0\0!\x20It's\x20been\x20a\x20while\.\x20What\x20are\x20you\x20
+SF:here\x20for\?\x20")%r(Help,95,"Hey\x20stranger,\x20I'm\x20Ollie,\x20pro
+SF:tector\x20of\x20panels,\x20lover\x20of\x20deer\x20antlers\.\n\nWhat\x20
+SF:is\x20your\x20name\?\x20What's\x20up,\x20Help\r!\x20It's\x20been\x20a\x
+SF:20while\.\x20What\x20are\x20you\x20here\x20for\?\x20");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May 25 17:06:56 2024 -- 1 IP address (1 host up) scanned in 1681.36 seconds

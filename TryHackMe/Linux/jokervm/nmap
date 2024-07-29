@@ -1,0 +1,23 @@
+# Nmap 7.92 scan initiated Sat Apr  6 09:05:26 2024 as: nmap -sC -sV -oN nmap -p- 10.10.111.59
+Nmap scan report for 10.10.111.59
+Host is up (0.073s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 ad:20:1f:f4:33:1b:00:70:b3:85:cb:87:00:c4:f4:f7 (RSA)
+|   256 1b:f9:a8:ec:fd:35:ec:fb:04:d5:ee:2a:a1:7a:4f:78 (ECDSA)
+|_  256 dc:d7:dd:6e:f6:71:1f:8c:2c:2c:a1:34:6d:29:99:20 (ED25519)
+80/tcp   open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-title: HA: Joker
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+8080/tcp open  http    Apache httpd 2.4.29
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=Please enter the password.
+|_http-title: 401 Unauthorized
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+Service Info: Host: localhost; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Apr  6 09:06:13 2024 -- 1 IP address (1 host up) scanned in 46.70 seconds
