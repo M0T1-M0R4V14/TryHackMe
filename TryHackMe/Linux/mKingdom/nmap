@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Sun Jun 16 17:44:59 2024 as: nmap -sV -sC -oN nmap 10.10.251.175
+Nmap scan report for 10.10.251.175
+Host is up (0.075s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+85/tcp open  http    Apache httpd 2.4.7 ((Ubuntu))
+|_http-title: 0H N0! PWN3D 4G4IN
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jun 16 17:45:09 2024 -- 1 IP address (1 host up) scanned in 10.61 seconds
