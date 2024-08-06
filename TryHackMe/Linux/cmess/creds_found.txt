@@ -1,0 +1,12 @@
+Gila creds:
+andre@cmess.thm:KPFTN_f2yxe% 
+
+'db' => 
+  array (
+    'host' => 'localhost',
+    'user' => 'root',
+    'pass' => 'r0otus3rpassw0rd',
+    'name' => 'gila',
+    
+andres backup password
+UQfsdCB7aAP6
